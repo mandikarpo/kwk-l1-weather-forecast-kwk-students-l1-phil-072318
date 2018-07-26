@@ -10,7 +10,8 @@
 
 def location(weather)
 	:city => "Philadelphia"
-	:description => ""
+	:description => "sunny with partial clouds"
+	:temperature_farenheit =>
 end
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
