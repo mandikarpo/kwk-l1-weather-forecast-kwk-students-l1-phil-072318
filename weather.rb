@@ -12,7 +12,7 @@ def location
 weather = {
 	:city => "Philadelphia",
 	:description => "sunny with partial clouds",
-	:temperature_farenheit => "76"
+	:temperature_farenheit => "76 degrees farenheit"
 }
 
 city = weather[:city]
