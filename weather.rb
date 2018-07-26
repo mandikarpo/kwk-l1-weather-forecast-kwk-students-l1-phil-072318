@@ -10,16 +10,19 @@
 
 def location
 weather = {
-	:city => "Philadelphia",
-	:description => "sunny with partial clouds",
-	:temperature_farenheit => "76 degrees farenheit"
+	:city => "New York",
+	:description => "partly cloudy",
+	:temperature_farenheit => "66.3"
+	:temperature_celcius => "19.1"
 }
 
 city = weather[:city]
 description = weather[:description]
-temperature = weather[:temperature_farenheit]
+temperature_f = weather[:temperature_farenheit]
+temperature_c = weather[:temperature_celcius]
 
-puts "In #{city}, it is #{description} with a temperature of #{temperature}."
+
+puts "In #{city}, it is #{description} with a temperature of #{temperature_f} in farenheit and #{temperature_c} in celcius."
 end 
 
 location
