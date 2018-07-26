@@ -14,9 +14,12 @@ weather = {
 	:description => "sunny with partial clouds",
 	:temperature_farenheit => "76"
 }
-city = Phildelphia 
-puts "In #{city}, it is #{description} with a temperature of #{temperature_farenheit}"
 
+city = weather[:city]
+description = weather[:description]
+temperature = weather[:temperature_farenheit]
+
+puts "In #{city}, it is #{description} with a temperature of #{temperature}."
 end 
 
 location
