@@ -8,7 +8,7 @@
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 
-def location(weather)
+def location
 weather = {
 	:city => "Philadelphia",
 	:description => "sunny with partial clouds",
@@ -19,7 +19,7 @@ puts "In #{:city}, it is #{:description} with a temperature of #{:temperature_fa
 
 end 
 
-location(weather)
+location
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
